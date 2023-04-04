@@ -1,0 +1,19 @@
+{
+  "name": "ts-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.20.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "rollup -cw --bundleConfigAsCjs"
+  },
+  "author": "",
+  "license": "ISC"
+}
